@@ -1,0 +1,6 @@
+Mivinac 13 50 2
+Baton 14 88 2
+Kovbasca 39 99 4
+Morozuvo 3 52 2
+Taburetka 3 0 2
+Beton -1 2 3
