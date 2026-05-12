@@ -1,15 +1,15 @@
 #ifndef PRICE_H
 #define PRICE_H
 
-struct money{
-int grn;
-short int kop;
+struct Tovar {
+    int grn;
+    short int kop;
 };
 
-void roundMoney(short int kop, short int *result);
-void addMoney(money a, money b, money *result);
-void multiplyMoney(money price, int count, money *result);
-void processAll(const char* filename, int quantity);
-   
+void MNNSHT( Tovar &tovar, int &sht);
+void SUMA( Tovar &tovar, short int &total_kop , int &total_grn);
+void KOPTOGRN( short int &total_kop , int &total_grn);
+void ROUND(short int &total_kop);  
+void readTovar(); 
 
-#endif     
+#endif
